@@ -1,0 +1,41 @@
+- Wampserver trace report -
+File created by Wampserver install
+InnoDB: using atomic writes.
+2019-12-17 15:49:24 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-12-17 15:49:24 0 [Note] InnoDB: Uses event mutexes
+2019-12-17 15:49:24 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-12-17 15:49:24 0 [Note] InnoDB: Number of pools: 1
+2019-12-17 15:49:24 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-12-17 15:49:24 0 [Note] InnoDB: Initializing buffer pool, total size = 256M, instances = 1, chunk size = 128M
+2019-12-17 15:49:24 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-12-17 15:49:24 0 [Note] InnoDB: Resizing redo log from 2*50331648 to 2*67108864 bytes; LSN=139836
+2019-12-17 15:49:24 0 [Note] InnoDB: Starting to delete and rewrite log files.
+2019-12-17 15:49:24 0 [Note] InnoDB: Setting log file .\ib_logfile101 size to 67108864 bytes
+2019-12-17 15:49:24 0 [Note] InnoDB: Setting log file .\ib_logfile1 size to 67108864 bytes
+2019-12-17 15:49:24 0 [Note] InnoDB: Renaming log file .\ib_logfile101 to .\ib_logfile0
+2019-12-17 15:49:24 0 [Note] InnoDB: New log files created, LSN=139836
+2019-12-17 15:49:24 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-12-17 15:49:24 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-12-17 15:49:24 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-12-17 15:49:24 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-12-17 15:49:24 0 [Note] InnoDB: Waiting for purge to start
+2019-12-17 15:49:24 0 [Note] InnoDB: 10.4.10 started; log sequence number 139836; transaction id 21
+2019-12-17 15:49:24 0 [Note] InnoDB: Loading buffer pool(s) from F:\OpenClassRoom\Projet_6\wampp\bin\mariadb\mariadb10.4.10\data\ib_buffer_pool
+2019-12-17 15:49:24 0 [Note] Plugin 'FEEDBACK' is disabled.
+2019-12-17 15:49:24 0 [Note] InnoDB: Buffer pool(s) load completed at 191217 15:49:24
+2019-12-17 15:49:24 0 [Note] Server socket created on IP: '::'.
+2019-12-17 15:49:25 0 [Note] Reading of all Master_info entries succeeded
+2019-12-17 15:49:25 0 [Note] Added new Master_info '' to hash table
+2019-12-17 15:49:25 0 [Note] wampmariadb64: ready for connections.
+Version: '10.4.10-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2019-12-17 15:49:29 8 [Warning] Accès refusé pour l'utilisateur: 'root'@'localhost' (mot de passe: OUI)
+2019-12-17 22:11:32 0 [Note] wampmariadb64 (unknown): Arrêt normal du serveur
+2019-12-17 22:11:32 0 [Note] Event Scheduler: Purging the queue. 0 events
+2019-12-17 22:11:32 0 [Note] InnoDB: FTS optimize thread exiting.
+2019-12-17 22:11:32 0 [Note] InnoDB: Starting shutdown...
+2019-12-17 22:11:32 0 [Note] InnoDB: Dumping buffer pool(s) to F:\OpenClassRoom\Projet_6\wampp\bin\mariadb\mariadb10.4.10\data\ib_buffer_pool
+2019-12-17 22:11:32 0 [Note] InnoDB: Buffer pool(s) dump completed at 191217 22:11:32
+2019-12-17 22:11:33 0 [Note] InnoDB: Shutdown completed; log sequence number 178166; transaction id 64
+2019-12-17 22:11:33 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-12-17 22:11:33 0 [Note] wampmariadb64: Arrêt du serveur terminé
+

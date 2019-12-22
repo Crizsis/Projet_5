@@ -1,0 +1,6 @@
+- Wampserver trace report -
+File created by Wampserver install
+[17-Dec-2019 14:49:22 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: F:/OpenClassRoom/Projet_6/wampp/bin/php/php7.3.12/ext/curl (Le module sp�cifi� est introuvable.), F:/OpenClassRoom/Projet_6/wampp/bin/php/php7.3.12/ext/php_curl.dll (Le module sp�cifi� est introuvable.)) in Unknown on line 0
+[17-Dec-2019 14:49:23 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: F:/OpenClassRoom/Projet_6/wampp/bin/php/php7.3.12/ext/curl (Le module sp�cifi� est introuvable.), F:/OpenClassRoom/Projet_6/wampp/bin/php/php7.3.12/ext/php_curl.dll (Le module sp�cifi� est introuvable.)) in Unknown on line 0
+[18-Dec-2019 13:42:46 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: F:/OpenClassRoom/Projet_6/wampp/bin/php/php7.3.12/ext/curl (Le module sp�cifi� est introuvable.), F:/OpenClassRoom/Projet_6/wampp/bin/php/php7.3.12/ext/php_curl.dll (Le module sp�cifi� est introuvable.)) in Unknown on line 0
+[18-Dec-2019 13:42:47 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: F:/OpenClassRoom/Projet_6/wampp/bin/php/php7.3.12/ext/curl (Le module sp�cifi� est introuvable.), F:/OpenClassRoom/Projet_6/wampp/bin/php/php7.3.12/ext/php_curl.dll (Le module sp�cifi� est introuvable.)) in Unknown on line 0

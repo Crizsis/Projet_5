@@ -1,0 +1,14 @@
+- Wampserver trace report -
+File created by Wampserver install
+[Tue Dec 17 15:49:23.682653 2019] [mpm_winnt:notice] [pid 9764:tid 808] AH00455: Apache/2.4.41 (Win64) PHP/7.3.12 configured -- resuming normal operations
+[Tue Dec 17 15:49:23.682653 2019] [mpm_winnt:notice] [pid 9764:tid 808] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Dec 17 15:49:23.682653 2019] [core:notice] [pid 9764:tid 808] AH00094: Command line: 'F:\\OpenClassRoom\\Projet_6\\wampp\\bin\\apache\\apache2.4.41\\bin\\httpd.exe -d F:/OpenClassRoom/Projet_6/wampp/bin/apache/apache2.4.41'
+[Tue Dec 17 15:49:23.685652 2019] [mpm_winnt:notice] [pid 9764:tid 808] AH00418: Parent: Created child process 10904
+[Tue Dec 17 15:49:24.020544 2019] [mpm_winnt:notice] [pid 10904:tid 720] AH00354: Child: Starting 64 worker threads.
+[Tue Dec 17 22:11:32.277553 2019] [mpm_winnt:notice] [pid 9764:tid 808] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Dec 17 22:11:34.288073 2019] [mpm_winnt:notice] [pid 10904:tid 720] AH00364: Child: All worker threads have exited.
+[Tue Dec 17 22:11:34.366198 2019] [mpm_winnt:notice] [pid 9764:tid 808] AH00430: Parent: Child process 10904 exited successfully.
+[Wed Dec 18 14:42:47.192622 2019] [mpm_winnt:notice] [pid 492:tid 780] AH00455: Apache/2.4.41 (Win64) PHP/7.3.12 configured -- resuming normal operations
+[Wed Dec 18 14:42:47.212615 2019] [mpm_winnt:notice] [pid 492:tid 780] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Wed Dec 18 14:42:47.212615 2019] [core:notice] [pid 492:tid 780] AH00094: Command line: 'F:\\OpenClassRoom\\Projet_6\\wampp\\bin\\apache\\apache2.4.41\\bin\\httpd.exe -d F:/OpenClassRoom/Projet_6/wampp/bin/apache/apache2.4.41'
+[Wed Dec 18 14:42:47.214615 2019] [mpm_winnt:notice] [pid 492:tid 780] AH00418: Parent: Created child process 3732

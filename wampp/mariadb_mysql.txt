@@ -1,0 +1,48 @@
+---- MySQL et MariaDB ----
+
+MySQL est supporté depuis le début de Wampserver
+MariaDB est supporté par Wampserver 3.0.8 et plus
+
+Selon les versions des installeurs complets de Wampserver, c'est soit MySQL, soit MariaDB qui est le gestionnaire de base de données par défaut.
+Si MySQL est le gestionnaire par défaut, il utilise le port 3306, auquel cas MariaDB utilisera le port 3307.
+Si MariaDB est le gestionnaire par défaut, il utilisera le port 3306, auquel cas MySQL utilisera le port 3308.
+
+--- PhpMyAdmin
+PhpMyAdmin est paramétré pour utiliser, au choix, MySQL ou MariaDB.
+Lors de l'appel à PhpMyAdmin, il y aura le choix du serveur : MySQL ou MariaDB, le serveur par défaut étant le premier de la liste.
+
+--- Connexion à la base de données par MariaDB ou MySQL
+Pour que vos connexions à un serveur de bases de données se fassent avec MariaDB ou MySQL, il faut préciser le port si celui-ci n'est pas le port par défaut 3306. En effet, sans préciser le port, ce sera le port par défaut qui sera utilisé, donc 3306.
+Les script de connexion utilisent, par exemple :
+$mysqli = new mysqli('127.0.0.1', 'user', 'password', 'database');
+ou, en procédural :
+$mysqli = mysqli_connect('127.0.0.1', 'user', 'password', 'database');
+
+Pour se connecter avec un gestionnaire qui n'utilise pas le port 3306, il faut préciser le numéro de port :
+$mysqli = new mysqli('127.0.0.1', 'user', 'password', 'database', '3307');
+ou, en procédural :
+$mysqli = mysqli_connect('127.0.0.1', 'user', 'password', 'database', '3307');
+
+Pour vérifier les connexions sur le gestionnaire de base de données MySQL ou MariaDB, utilisez le script
+wamp\www\testmysql.php par 'http://localhost/testmysql.php'
+en ayant, au préalable, modifié le script en fonction de vos paramètres.
+
+--- Remplacer MySQL par MariaDB et vice-versa ---
+Note importante : Il est impératif de sauvegarder vos bases de données dans des fichiers SQL par export de celles-ci avant de désactiver MySQL.
+C'est le seul moyen pérenne de transférer vos bases de données entre MySQL et MariaDB.
+- Il existe un outil pour inverser d'un seul clic le SGBD par défaut si les deux sont activés (MySQL ET MariaDB) :
+- Si MySQL est le SGBD par défaut
+Clic-Droit icône Wampmanager -> Outils -> Inverser SGBD par défaut MySQL <-> MariaDB
+ou
+- Si MariaDB est le SGBD par défaut
+Clic-Droit icône Wampmanager -> Outils -> Inverser SGBD par défaut MariaDB <-> MySQL
+Bien sûr, il vous reste à importer vos bases de données préalablement sauvegardées.
+
+--- Aucun gestionnaire de bases de données
+Vous n'êtes pas obligé de conserver l'utilisation des deux gestionnaires MySQL et MariaDB, vous pouvez ne conserver que celui qui vous convient et vous pouvez même desactiver totalement les deux gestionnaires de bases de données par :
+Clic-Droit Icône Wampmanager -> Paramètres Wamp -> Autoriser MariaDB pour décocher
+Clic-Droit Icône Wampmanager -> Paramètres Wamp -> Autoriser MySQL pour décocher
+
+
+
+
