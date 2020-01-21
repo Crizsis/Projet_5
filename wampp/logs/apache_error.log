@@ -12,3 +12,58 @@ File created by Wampserver install
 [Wed Dec 18 14:42:47.212615 2019] [mpm_winnt:notice] [pid 492:tid 780] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
 [Wed Dec 18 14:42:47.212615 2019] [core:notice] [pid 492:tid 780] AH00094: Command line: 'F:\\OpenClassRoom\\Projet_6\\wampp\\bin\\apache\\apache2.4.41\\bin\\httpd.exe -d F:/OpenClassRoom/Projet_6/wampp/bin/apache/apache2.4.41'
 [Wed Dec 18 14:42:47.214615 2019] [mpm_winnt:notice] [pid 492:tid 780] AH00418: Parent: Created child process 3732
+[Wed Dec 18 14:42:47.598491 2019] [mpm_winnt:notice] [pid 3732:tid 716] AH00354: Child: Starting 64 worker threads.
+[Mon Jan 13 08:36:59.118318 2020] [core:warn] [pid 1320:tid 696] AH00098: pid file F:/OpenClassRoom/Projet_6/wampp/bin/apache/apache2.4.41/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jan 13 08:37:00.350924 2020] [mpm_winnt:notice] [pid 1320:tid 696] AH00455: Apache/2.4.41 (Win64) PHP/7.3.12 configured -- resuming normal operations
+[Mon Jan 13 08:37:00.350924 2020] [mpm_winnt:notice] [pid 1320:tid 696] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Mon Jan 13 08:37:00.350924 2020] [core:notice] [pid 1320:tid 696] AH00094: Command line: 'F:\\OpenClassRoom\\Projet_6\\wampp\\bin\\apache\\apache2.4.41\\bin\\httpd.exe -d F:/OpenClassRoom/Projet_6/wampp/bin/apache/apache2.4.41'
+[Mon Jan 13 08:37:00.365920 2020] [mpm_winnt:notice] [pid 1320:tid 696] AH00418: Parent: Created child process 4924
+[Mon Jan 13 08:37:00.644830 2020] [mpm_winnt:notice] [pid 4924:tid 740] AH00354: Child: Starting 64 worker threads.
+[Mon Jan 13 20:50:48.085246 2020] [mpm_winnt:notice] [pid 1320:tid 696] AH00428: Parent: child process 4924 exited with status 1 -- Restarting.
+[Mon Jan 13 20:50:48.856461 2020] [mpm_winnt:notice] [pid 1320:tid 696] AH00455: Apache/2.4.41 (Win64) PHP/7.3.12 configured -- resuming normal operations
+[Mon Jan 13 20:50:48.856461 2020] [mpm_winnt:notice] [pid 1320:tid 696] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Mon Jan 13 20:50:48.856461 2020] [core:notice] [pid 1320:tid 696] AH00094: Command line: 'F:\\OpenClassRoom\\Projet_6\\wampp\\bin\\apache\\apache2.4.41\\bin\\httpd.exe -d F:/OpenClassRoom/Projet_6/wampp/bin/apache/apache2.4.41'
+[Mon Jan 13 20:50:48.870261 2020] [mpm_winnt:notice] [pid 1320:tid 696] AH00418: Parent: Created child process 12708
+[Mon Jan 13 20:50:49.323196 2020] [mpm_winnt:notice] [pid 12708:tid 716] AH00354: Child: Starting 64 worker threads.
+[Mon Jan 13 20:50:54.893379 2020] [mpm_winnt:crit] [pid 12708:tid 716] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Tue Jan 14 15:34:01.667483 2020] [core:warn] [pid 3660:tid 620] AH00098: pid file F:/OpenClassRoom/Projet_6/wampp/bin/apache/apache2.4.41/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jan 14 15:34:02.267292 2020] [mpm_winnt:notice] [pid 3660:tid 620] AH00455: Apache/2.4.41 (Win64) PHP/7.3.12 configured -- resuming normal operations
+[Tue Jan 14 15:34:02.267292 2020] [mpm_winnt:notice] [pid 3660:tid 620] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Jan 14 15:34:02.267292 2020] [core:notice] [pid 3660:tid 620] AH00094: Command line: 'F:\\OpenClassRoom\\Projet_6\\wampp\\bin\\apache\\apache2.4.41\\bin\\httpd.exe -d F:/OpenClassRoom/Projet_6/wampp/bin/apache/apache2.4.41'
+[Tue Jan 14 15:34:02.284287 2020] [mpm_winnt:notice] [pid 3660:tid 620] AH00418: Parent: Created child process 5804
+[Tue Jan 14 15:34:02.685159 2020] [mpm_winnt:notice] [pid 5804:tid 732] AH00354: Child: Starting 64 worker threads.
+[Thu Jan 16 07:59:15.710206 2020] [mpm_winnt:notice] [pid 3660:tid 620] AH00428: Parent: child process 5804 exited with status 1 -- Restarting.
+[Thu Jan 16 07:59:16.580320 2020] [mpm_winnt:notice] [pid 3660:tid 620] AH00455: Apache/2.4.41 (Win64) PHP/7.3.12 configured -- resuming normal operations
+[Thu Jan 16 07:59:16.580320 2020] [mpm_winnt:notice] [pid 3660:tid 620] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Thu Jan 16 07:59:16.580320 2020] [core:notice] [pid 3660:tid 620] AH00094: Command line: 'F:\\OpenClassRoom\\Projet_6\\wampp\\bin\\apache\\apache2.4.41\\bin\\httpd.exe -d F:/OpenClassRoom/Projet_6/wampp/bin/apache/apache2.4.41'
+[Thu Jan 16 07:59:16.594316 2020] [mpm_winnt:notice] [pid 3660:tid 620] AH00418: Parent: Created child process 12936
+[Thu Jan 16 07:59:17.125050 2020] [mpm_winnt:notice] [pid 12936:tid 716] AH00354: Child: Starting 64 worker threads.
+[Thu Jan 16 07:59:18.554307 2020] [mpm_winnt:crit] [pid 12936:tid 716] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Thu Jan 16 07:59:20.555270 2020] [mpm_winnt:notice] [pid 12936:tid 716] AH00364: Child: All worker threads have exited.
+[Thu Jan 16 08:36:30.237027 2020] [core:warn] [pid 4848:tid 656] AH00098: pid file F:/OpenClassRoom/Projet_6/wampp/bin/apache/apache2.4.41/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jan 16 08:36:30.276033 2020] [mpm_winnt:notice] [pid 4848:tid 656] AH00455: Apache/2.4.41 (Win64) PHP/7.3.12 configured -- resuming normal operations
+[Thu Jan 16 08:36:30.276033 2020] [mpm_winnt:notice] [pid 4848:tid 656] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Thu Jan 16 08:36:30.276033 2020] [core:notice] [pid 4848:tid 656] AH00094: Command line: 'F:\\OpenClassRoom\\Projet_6\\wampp\\bin\\apache\\apache2.4.41\\bin\\httpd.exe -d F:/OpenClassRoom/Projet_6/wampp/bin/apache/apache2.4.41'
+[Thu Jan 16 08:36:30.277027 2020] [mpm_winnt:notice] [pid 4848:tid 656] AH00418: Parent: Created child process 9360
+[Thu Jan 16 08:36:30.581916 2020] [mpm_winnt:notice] [pid 9360:tid 764] AH00354: Child: Starting 64 worker threads.
+[Thu Jan 16 10:05:32.404042 2020] [mpm_winnt:notice] [pid 4848:tid 656] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Jan 16 10:05:34.423216 2020] [mpm_winnt:notice] [pid 9360:tid 764] AH00364: Child: All worker threads have exited.
+[Thu Jan 16 10:05:34.438841 2020] [mpm_winnt:notice] [pid 4848:tid 656] AH00430: Parent: Child process 9360 exited successfully.
+[Sat Jan 18 10:05:36.913059 2020] [mpm_winnt:notice] [pid 6660:tid 800] AH00455: Apache/2.4.41 (Win64) PHP/7.3.12 configured -- resuming normal operations
+[Sat Jan 18 10:05:36.913059 2020] [mpm_winnt:notice] [pid 6660:tid 800] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Sat Jan 18 10:05:36.913059 2020] [core:notice] [pid 6660:tid 800] AH00094: Command line: 'F:\\OpenClassRoom\\Projet_6\\wampp\\bin\\apache\\apache2.4.41\\bin\\httpd.exe -d F:/OpenClassRoom/Projet_6/wampp/bin/apache/apache2.4.41'
+[Sat Jan 18 10:05:36.928055 2020] [mpm_winnt:notice] [pid 6660:tid 800] AH00418: Parent: Created child process 7140
+[Sat Jan 18 10:05:37.303934 2020] [mpm_winnt:notice] [pid 7140:tid 728] AH00354: Child: Starting 64 worker threads.
+[Sat Jan 18 11:27:33.360376 2020] [mpm_winnt:notice] [pid 6660:tid 800] AH00428: Parent: child process 7140 exited with status 1 -- Restarting.
+[Sat Jan 18 11:27:33.425357 2020] [mpm_winnt:notice] [pid 6660:tid 800] AH00455: Apache/2.4.41 (Win64) PHP/7.3.12 configured -- resuming normal operations
+[Sat Jan 18 11:27:33.425357 2020] [mpm_winnt:notice] [pid 6660:tid 800] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Sat Jan 18 11:27:33.425357 2020] [core:notice] [pid 6660:tid 800] AH00094: Command line: 'F:\\OpenClassRoom\\Projet_6\\wampp\\bin\\apache\\apache2.4.41\\bin\\httpd.exe -d F:/OpenClassRoom/Projet_6/wampp/bin/apache/apache2.4.41'
+[Sat Jan 18 11:27:33.428355 2020] [mpm_winnt:notice] [pid 6660:tid 800] AH00418: Parent: Created child process 9520
+[Sat Jan 18 11:27:33.810233 2020] [mpm_winnt:notice] [pid 9520:tid 592] AH00354: Child: Starting 64 worker threads.
+[Sat Jan 18 11:27:41.749120 2020] [mpm_winnt:crit] [pid 9520:tid 592] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Tue Jan 21 08:45:38.331650 2020] [core:warn] [pid 2728:tid 680] AH00098: pid file F:/OpenClassRoom/Projet_6/wampp/bin/apache/apache2.4.41/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jan 21 08:45:38.969804 2020] [mpm_winnt:notice] [pid 2728:tid 680] AH00455: Apache/2.4.41 (Win64) PHP/7.3.12 configured -- resuming normal operations
+[Tue Jan 21 08:45:38.969804 2020] [mpm_winnt:notice] [pid 2728:tid 680] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Jan 21 08:45:38.969804 2020] [core:notice] [pid 2728:tid 680] AH00094: Command line: 'F:\\OpenClassRoom\\Projet_6\\wampp\\bin\\apache\\apache2.4.41\\bin\\httpd.exe -d F:/OpenClassRoom/Projet_6/wampp/bin/apache/apache2.4.41'
+[Tue Jan 21 08:45:38.991797 2020] [mpm_winnt:notice] [pid 2728:tid 680] AH00418: Parent: Created child process 8432
+[Tue Jan 21 08:45:39.346762 2020] [mpm_winnt:notice] [pid 8432:tid 716] AH00354: Child: Starting 64 worker threads.

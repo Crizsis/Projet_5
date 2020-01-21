@@ -1,0 +1,11 @@
+{{ form_start(form) }}
+<div class="row">
+  <div class="col-md-4">{{form_row(form.Name)}}</div>
+</div>
+<div class="row">
+  <div class="col-md-12">{{form_row(form.Description)}}</div>
+</div>
+<div class="text-right">
+    <button type="submit" class="btn btn-primary" name="EditButton" >{{ button|default ('Créer') }}</button>
+</div>
+{{ form_end(form) }}
